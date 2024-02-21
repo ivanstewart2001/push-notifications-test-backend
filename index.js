@@ -38,3 +38,5 @@ app.get("/send-notification", (req, res) => {
 app.listen(port, () => {
   console.log("Server running on port 3000!");
 });
+
+module.exports = app;
